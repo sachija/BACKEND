@@ -1,4 +1,4 @@
-const home =(req,res)=>{
+const homepage =(req,res)=>{
 res.send (
  [
     {    
@@ -99,4 +99,4 @@ res.send (
 
        }   
 ])}
-module.exports.homeData = home;
+module.exports.homeData = homepage;
