@@ -7,7 +7,7 @@ const data2 = require('./Route/hollywood');
 const data3 = require('./Route/technology');
 const data4 = require('./Route/food');
 const data5 = require('./Route/fittness');
-const data6=require('./Route/home');
+const data6=require('./Route/homepage');
 // app.use(cors);
 
 app.use('/home',data1)
